@@ -9,7 +9,7 @@ public class CreateAccountFields {
         customField.type_x = 'Text';
         customField.length = 255;
 
-        // Add the custom field to the list
+        // Add the custom field to the list, this is written by me
         List<MetadataService.SaveResult> results = MetadataService.createMetadata(
             new List<MetadataService.Metadata> { customField }
         );
